@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أخبار المغرب والعالم</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #c1272d;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2d6a4f;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>أخبار المغرب والعالم</h1>
+        <p>أحدث الأخبار السياسية من المغرب والعالم</p>
+    </header>
+
+    <nav>
+        <a href="#morocco">أخبار المغرب</a>
+        <a href="#world">أخبار العالم</a>
+        <a href="#opinion">مقالات الرأي</a>
+    </nav>
+
+    <section id="morocco">
+        <h2>أخبار المغرب</h2>
+        <p>آخر التطورات السياسية في المغرب...</p>
+    </section>
+
+    <section id="world">
+        <h2>أخبار العالم</h2>
+        <p>أحدث الأخبار السياسية الدولية...</p>
+    </section>
+
+    <section id="opinion">
+        <h2>مقالات الرأي</h2>
+        <p>تحليلات وآراء الخبراء حول السياسة المغربية والدولية...</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 عبد اللطيف المكناسي - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
